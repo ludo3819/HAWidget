@@ -1,0 +1,29 @@
+# Xcode
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcworkspace/
+DerivedData/
+.swiftpm/
+.build/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# SPM
+Package.resolved
+
+# Misc
+.env
+.env.local
+secrets.plist
